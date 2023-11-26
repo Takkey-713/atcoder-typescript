@@ -2,8 +2,10 @@
 
 ## tsc実行
 ```:bash
-$yarn build targetFile
+$yarn build
 ```
+
+dist配下にコンパイルファイルが生成されるのでそれを実行してください。
 
 ## 標準入力
 inputディレクトリ配下に標準入力用のテキストファイルを作成
@@ -13,5 +15,5 @@ inputディレクトリ配下に標準入力用のテキストファイルを作
 
 ## ファイル実行
 ```:bash
-$node targetDir/targetFile < input/targetDir/targetFile
+$node targetDir/targetFile input/targetDir/targetFile
 ```

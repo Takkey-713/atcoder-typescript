@@ -1,8 +1,8 @@
 import * as fs from "fs";
 
-const inputs = fs.readFileSync(0, "utf8");
-
-
+const fileName = process.argv[2];
+// 以下のコードから着手
+const inputs = fs.readFileSync(fileName, "utf8");
 const inputArray = inputs.split(/\s/);
 
 console.log(inputArray)
