@@ -1,0 +1,13 @@
+{
+  "name": "atcoder/typescript",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^20.10.0",
+    "typescript": "^5.3.2"
+  },
+  "scripts": {
+    "build": "tsc"
+  }
+}
